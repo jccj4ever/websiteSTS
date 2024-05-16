@@ -1,0 +1,220 @@
+<html>
+<head>
+  <meta name = "viewport" content = "with=device-width, initial-scale=1.0">
+  <title>Home</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+</head>
+<body>
+
+<section class = "header">
+      <nav>
+           <a href= "index.html"> <img src = "Logo.png"> </a>
+              <div class = "nav-links" id = "navLinks">
+                   <i class="fa-solid fa-rectangle-xmark" onclick="hideMenu()"></i>
+                       <ul>
+                           <li> <a href= "index.html"> Home </a> </li>
+                           <li> <a href= "about.html"> About us</a> </li>
+                           <li> <a href= "contact.html"> Contact us </a> </li>
+                       </ul>
+              </div>
+                <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+      </nav>
+<div class = "text-box">
+    <h1> Group Study Club </h1>
+    <p>Study better, Learn faster. Get the grade you want. Discover why many students use us to learn better.  </p>
+<a href = "contact.html" class = "hero-btn"> Send us message </a>
+       </div>
+</section>
+
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+<section class = "course">
+    <h1> Basic programming language we offer</h1>
+    <p> Basic programming </p>
+    <div class= "row">
+        <div class = "course-col">
+          <h3> Fundamentals of HTML </h3>
+          <p> - Understand the basic structure of HTML.<br>- Learn about essential HTML tags and their functions. <br>- Explore the principles of semantic HTML for improved page structure.s </p>
+        </div>
+        <div class = "course-col">
+          <h3> CSS Styling Techniques </h3>
+          <p> - Grasp the fundamentals of CSS for styling web pages. <br> - Learn how to apply styles to HTML elements using selectors. <br> - Understand the box model and how it influences layout design. <br>- Explore responsive design principles for creating adaptable layout </p>
+        </div>
+        <div class = "course-col">
+          <h3> JavaScript Basics  </h3>
+          <p> - Learn the basics of JavaScript programming language.<br>- Understand variables, data types, and basic operators.<br>- Explore control structures such as loops and conditionals.<br> - Gain knowledge of functions and their role in JavaScript.</p>
+        </div>
+    </div>
+</section>
+<section class="instructors">
+    <h1>Our Tutors</h1>
+    <p>Peer Tutors</p>
+    <div class="row">
+        <div class="instructors-col">
+        <img src = "burdeos.jpg">
+            <div>
+                <p> Greetings, this is Clyde Jude Burdeos I am willing to work with any student. I am also confident in my ability to walk you through each stage of the process as we study programming.</p> 
+                <h3> Clyde Jude Burdeos </h3>
+            </div>
+        </div>
+        <div class="instructors-col">
+        <img src = "sarmiento.jpg">
+            <div>
+               <p> Hello, I'm Jessica Sarmiento, a student instructor eager to share my passion for programming with you. Let's make learning together an engaging and enriching experience!</p> 
+                <h3> Jessica Sarmiento </h3>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="instructors-col">
+            <img src="refuerzo.jpg">
+            <div>
+            <p> Hello, I'm Nicole Ann Refuerzo, your expert programming instructor. Let's navigate the coding landscape together and turn concepts into code with precision and flair!</p> 
+            <h3> Nicole Ann Refuerzo </h3>
+            </div>
+        </div>
+        <div class="instructors-col">
+        <img src = "gutierrez.jpg">
+            <div>
+            <p> Hi! I'm Shena gutierrez, a student instructor here. Let's explore coding together! I'm dedicated to making learning programming exciting and straightforward. Ready to dive in?</p> 
+            <h3> Shena Gutierrez </h3>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="instructors-col">
+        <img src = "aladin.png">
+            <div>
+            <p> Hello, My name is Alexa Gillian Aladin, a student instructor. I am looking forward to be teaching you more posibilities in this programming industry. Best luck in your learning endeavors!</p> 
+            <h3> Alexa Gillian Aladin</h3>
+            </div>
+        </div>
+        <div class="instructors-col">
+        <img src = "tura.jpg">
+            <div>
+            <p> Hello, I'm John Angelo Tura, a student instructor who loves programming, and i'm good at teaching it to others. I want to get more people excited about technology and coding, and I'm sure I can help make learning to code a fun experience for everyone!</p> 
+            <h3> John Angelo Tura</h3>
+            </div>
+        </div>
+</div>
+</section>
+<section class="code-basic">
+<div class="basics">
+<left>
+<center><h1> HTML </h1></center>
+<p> 
+
+    HyperText Markup Language is the standard markup language for documents designed to be displayed in a web browser. It defines the content and structure of web content. It is often assisted by technologies such as Cascading Style Sheets and scripting languages such as JavaScript<br><br>
+What is HTML? <br>
+> HTML stands for Hyper Text Markup Language <br>
+> HTML is the standard markup language for creating Web pages <br>
+> HTML describes the structure of a Web page <br>
+> HTML consists of a series of elements <br>
+> HTML elements tell the browser how to display the content <br>
+> HTML elements label pieces of content such as "this is a heading", "this is a paragraph", "this is a link", etc. <br><br>
+> The < !DOCTYPE html > declaration defines that this document is an HTML5 document <br>
+> The < html > element is the root element of an HTML page <br>
+> The < head > element contains meta information about the HTML page <br>
+> The < title > element specifies a title for the HTML page (which is shown in the browser's title bar or in the page's tab) <br>
+> The < body > element defines the document's body, and is a container for all the visible contents, such as headings, paragraphs,<br> images, hyperlinks, tables, lists, etc. <br>
+> The < h1 > element defines a large heading <br>
+> The < p > element defines a paragraph <br><br>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/HD13eq_Pmp8?si=12DD0K-MIYHvkwbY" title="Learn HTML" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> <br><br>
+
+<i>Not free for a tutorial? To learn more, visit this most trusted website for studying more about programming.<br> https://www.w3schools.com/js/default.asp </p></i>
+
+</p>
+<br>
+
+<center><h1> CSS </h1></center>
+<p>
+
+    Cascading Style Sheets is a style sheet language used for specifying the presentation and styling of a document written in a markup language such as HTML or XML. CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript.<br><br>
+
+What is CSS? <br>
+> CSS stands for Cascading Style Sheets <br>
+> CSS describes how HTML elements are to be displayed on screen, paper, or in other media <br>
+> CSS saves a lot of work. It can control the layout of multiple web pages all at once <br>
+> External stylesheets are stored in CSS files <br><br><br>
+
+<a href="https://imgbb.com/"><img src="https://i.ibb.co/MZmyrtr/1c31001b-471e-49ac-85d9-b252fc13b0aa.jpg" alt="1c31001b-471e-49ac-85d9-b252fc13b0aa" border="0"></a>
+<br><br>
+
+
+<br> > The selector points to the HTML element you want to style. <br>
+
+> The declaration block contains one or more declarations separated by semicolons. <br>
+
+> Each declaration includes a CSS property name and a value, separated by a colon. <br>
+
+> Multiple CSS declarations are separated with semicolons, and declaration blocks are surrounded by curly braces. <br>
+
+> p is a selector in CSS (it points to the HTML element you want to style: < p >). <br>
+> color is a property, and red is the property value <br>
+> text-align is a property, and center is the property value <br><br>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/wRNinF7YQqQ?si=uF0NF3CEGo1kB7Pj" title="Learn CSS" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> <br><br>
+
+<i> Not free for a tutorial? To learn more, visit this most trusted website for studying more about programming.<br> https://www.w3schools.com/js/default.asp </i></p>
+<br> 
+
+<center><h1> JAVASCRIPT </h1></center>
+<p>
+    JavaScript is a scripting or programming language that allows you to implement complex features on web pages — every time a web page does more than just sit there and display static information for you to look at — displaying timely content updates, interactive maps, animated 2D/3D graphics, scrolling video jukeboxes, etc. — you can bet that JavaScript is probably involved. It is the third layer of the layer cake of standard web technologies, two of which (HTML and CSS) we have covered in much more detail in other parts of the Learning Area. <br><br>
+JavaScript is one of the 3 languages all web developers must learn: <br><br>
+
+   1. HTML to define the content of web pages <br>
+
+   2. CSS to specify the layout of web pages <br>
+
+   3. JavaScript to program the behavior of web pages <br>
+<br>
+   
+   <b> JavaScript Can Change HTML Attribute Values </b> <br>
+       In this example JavaScript changes the value of the src (source) attribute of an < img > tag: <br><br><br>
+   <a href="https://imgbb.com/"><img src="https://i.ibb.co/ydbL0sV/e4771568-c257-44f9-8bab-705833033aec.jpg" alt="e4771568-c257-44f9-8bab-705833033aec" border="0"></a>
+   <br><br><br><br>
+
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/8dWL3wF_OMw?si=DKfsLDfegQjai939" title="Learn Java" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe><br><br>
+
+   <i> Not free for a tutorial? To learn more, visit this most trusted website for studying more about programming.<br> https://www.w3schools.com/js/default.asp </i></p>
+</section>
+
+<section class = "cta">
+<h1> Sign the form to enroll </h1>
+<a href = "contact.html" class = "hero-btn"> Contact us </a>
+
+</left>
+</div>
+</section>
+
+
+<section class = "footer">
+<h4> About Us </h4>
+<p> Group Study Club social media accounts</p>
+<div class = "icons">
+    <i class="fa-brands fa-facebook"></i>
+    <i class="fa-brands fa-instagram"></i>
+    <i class="fa-brands fa-google"></i>
+    <i class="fa-brands fa-x-twitter"></i>
+</div>
+
+</section> 
+
+
+</script>
+</body>
+</html>
